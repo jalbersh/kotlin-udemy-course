@@ -31,7 +31,7 @@ class Book(val title:String, val author:String, val year:Int, var borrowed: Bool
     }
 }
 fun main(args: Array<String>) {
-    var book = Book("A Diary of a Young Girl","Anne Frank",1943, false)
+    var book = Book(title="A Diary of a Young Girl",author="Anne Frank",year=1943, borrowed=false)
     book.print()
     book.borrowBook()
     book.borrowBook()
