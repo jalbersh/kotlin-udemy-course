@@ -3,4 +3,10 @@ out
 .DS_Store
 .gradle
 .git
-
+.DS_Store
+.idea
+.gradle
+*.iml
+gradle/
+gradlew
+*.bat

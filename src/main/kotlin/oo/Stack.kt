@@ -19,6 +19,8 @@ class Stack<E>(vararg val elements: E) {
 
 fun main(args: Array<String>) {
     val stack = Stack(3,1,6,9)
+    stack.push(10)
+    println(stack.pop())
     println(stack.pop())
     println(stack.pop())
     println(stack.pop())
