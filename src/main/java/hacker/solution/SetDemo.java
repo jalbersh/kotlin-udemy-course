@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
+@SuppressWarnings("unchecked")
 public class SetDemo {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);

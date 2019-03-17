@@ -1,18 +1,24 @@
 package hacker.solution;
 
 class Prime {
-    public void checkPrime(int... values) {
-        boolean flag = false;
-        for (int value: values) {
-            for (int i = 2; i <= value / 2; ++i) {
-                if (value % i == 0) {
-                    flag = true;
-                    break;
-                }
+    void checkPrime(int... numbers) {
+        for (int num : numbers) {
+            if (isPrime(num)) {
+                System.out.print(num + " ");
             }
-            if (!flag && value != 1)
-                System.out.println(value);
         }
+        System.out.println();
+    }
+    boolean isPrime(int n){
+        if (n == 2)
+            return true;
+        if (n < 2 || n % 2 == 0)
+            return false;
+        for (int i = 3; i <= (int) Math.sqrt(n); i += 2){
+            if (n % i == 0)
+                return false;
+        }
+        return true;
     }
 }
 

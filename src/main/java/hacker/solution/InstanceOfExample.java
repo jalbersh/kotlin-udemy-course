@@ -2,12 +2,11 @@ package hacker.solution;
 
 import java.util.*;
 
-
 class Student1{}
 class Rockstar{   }
 class Hacker{}
 
-
+@SuppressWarnings("unchecked")
 public class InstanceOfExample {
 
     static String count(ArrayList mylist){

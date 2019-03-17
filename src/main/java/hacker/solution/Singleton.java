@@ -9,3 +9,4 @@ class Singleton{
         return instance;
     }
 }
+

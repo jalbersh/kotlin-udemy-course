@@ -1,12 +1,10 @@
 package hacker.solution;
 
-import hacker.solutionk.Printer;
-
 import java.lang.reflect.Method;
 
 public class Generics {
     public static void main(String args[]) {
-        hacker.solutionk.Printer myPrinter = new hacker.solutionk.Printer();
+        Printer myPrinter = new Printer();
         Integer[] intArray = {1, 2, 3};
         String[] stringArray = {"Hello", "World"};
         myPrinter.printArray(intArray);

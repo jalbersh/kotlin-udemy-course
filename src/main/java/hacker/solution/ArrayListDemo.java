@@ -1,7 +1,5 @@
 package hacker.solution;
 
-import com.sun.xml.internal.xsom.impl.scd.Iterators;
-
 import java.math.BigDecimal;
 import java.util.*;
 
