@@ -1,11 +1,7 @@
 package hacker.solutionk
 
 import java.util.ArrayList
-import java.io.*
 import java.util.*
-import java.text.*
-import java.math.*
-import java.util.regex.*
 import java.util.Scanner
 
 enum class Color {
@@ -85,11 +81,6 @@ internal class FancyVisitor : TreeVis() {
 }
 
 object VisitorDemo {
-
-//    private var values: ArrayList<Int> = ArrayList<Int>()
-//    private var colors: ArrayList<Color> = ArrayList<Color>()
-//    private val map = HashMap<Int, HashSet<Int>>()
-
     fun solve(): Tree {
         val `in` = Scanner(System.`in`)
         val numberOfNodes = `in`.nextInt()
