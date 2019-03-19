@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hacker.solutionk.PalindromeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-16T04:49:55" hostname="Jamess-MacBook-Pro-2013.local" time="0.035">
-  <properties/>
-  <testcase name="palindromeTest" classname="hacker.solutionk.PalindromeTest" time="0.035"/>
-  <system-out><![CDATA[comparing albeisasiebla with albeisasiebla
-comparing able with elba
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

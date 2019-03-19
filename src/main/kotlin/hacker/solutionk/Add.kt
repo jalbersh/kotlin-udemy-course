@@ -1,6 +1,6 @@
 package hacker.solutionk
 
-internal class Add {
+class Add {
     fun add(vararg values: Int): Int {
         var sum = 0
         var i = 0

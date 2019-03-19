@@ -13,7 +13,7 @@ class VisitorTest {
         var colors = arrayListOf(Color.RED,Color.GREEN,Color.RED,Color.RED,Color.GREEN)
         var map = HashMap<Int, HashSet<Int>>()
         var vals = arrayOf(intArrayOf(1,2),intArrayOf(1,3),intArrayOf(3,4),intArrayOf(3,5))
-        var root: TreeNode? = null
+        var root: TreeNode
         for (i in 0 until numberOfNodes - 1) {
             val u = vals[i][0]
             val v = vals[i][1]

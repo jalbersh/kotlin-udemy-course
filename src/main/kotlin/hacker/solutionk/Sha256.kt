@@ -6,6 +6,7 @@ import java.security.MessageDigest
 import java.security.NoSuchAlgorithmException
 import java.util.*
 
+@SuppressWarnings("sunapi")
 object Sha256 {
     @JvmStatic
     fun main(args: Array<String>) {
