@@ -28,5 +28,6 @@ class EncryptionSpek: Spek({
             var result = encryption("feedthedog")
             var expected = "fto ehg ee dd"
             assertEquals(expected,result)
-        }    }
+        }
+    }
 })
