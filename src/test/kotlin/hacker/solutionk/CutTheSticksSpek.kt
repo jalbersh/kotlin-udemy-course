@@ -8,14 +8,14 @@ import kotlin.test.assertEquals
 import kotlin.test.assertNotEquals
 import kotlin.test.assertTrue
 
-class CutTheSticksSpek: Spek({
-    fun arrayEquals(a: Array<Int>, b: Array<Int>): Boolean {
-        if (a.size != b.size) return false
-        for (i in 0 until a.size) {
-            if (a[i] != b[i]) return false
-        }
-        return true
+fun arrayEquals(a: Array<Int>, b: Array<Int>): Boolean {
+    if (a.size != b.size) return false
+    for (i in 0 until a.size) {
+        if (a[i] != b[i]) return false
     }
+    return true
+}
+class CutTheSticksSpek: Spek({
     describe("Determines the integers satisfying the permutation equation") {
         it("calculates 5, 4, 4, 2, 2, 8") {
             var result = cutTheSticks(arrayOf(5, 4, 4, 2, 2, 8))

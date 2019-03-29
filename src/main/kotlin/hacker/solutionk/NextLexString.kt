@@ -38,11 +38,15 @@ fun getSwapIndex(chars: CharArray, pos: Int): Int {
 }
 fun bitXor(chars: CharArray, a1: Int, a2: Int) {
     chars[a1] = (chars[a1].toInt() xor chars[a2].toInt()).toChar()
+    println(chars[a1].toInt().toString()+" xor "+chars[a2].toInt().toString()+"="+(chars[a1].toInt() xor chars[a2].toInt()))
+    println("resulting char="+(chars[a1].toInt() xor chars[a2].toInt()).toChar())
     chars[a2] = (chars[a2].toInt() xor chars[a1].toInt()).toChar()
     chars[a1] = (chars[a1].toInt() xor chars[a2].toInt()).toChar()
 }
 fun biggerIsGreater(w: String): String {
+    println("string="+w)
     val chars = w.toCharArray()
+    println("chars="+String(chars))
     if (nextCombo(chars)) {
         return String(chars)
     }
