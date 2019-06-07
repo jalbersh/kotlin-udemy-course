@@ -10,3 +10,5 @@ out
 gradle/
 gradlew
 *.bat
+*.class
+build/
