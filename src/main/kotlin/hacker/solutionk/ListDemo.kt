@@ -1,6 +1,9 @@
 package hacker.solutionk
 
 import java.util.*
+import java.util.Arrays
+
+
 
 object ListDemo {
     @JvmStatic

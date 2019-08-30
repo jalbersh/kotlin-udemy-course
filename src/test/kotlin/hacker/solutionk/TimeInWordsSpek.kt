@@ -12,7 +12,7 @@ class TimeInWordsSpek: Spek({
     describe("Determines time in words") {
         it("calculates 5:00") {
             var result = timeInWords(5,0)
-            var expected = "five o'clock"
+            var expected = "five o' clock"
             assertEquals(expected,result)
         }
         it("calculates 5:01") {

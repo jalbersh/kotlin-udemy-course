@@ -13,6 +13,9 @@ class AnagramSpec: Spek({
         it("returns true for reverse(margana)") {
             assertTrue(Anagram.isAnagram("anagram", "margana"))
         }
+        it("returns true for dec and cde") {
+            assertTrue(Anagram.isAnagram("dec","cde"))
+        }
     }
     describe("Check Bad Anagram") {
         it("returns false for abcdefg") {

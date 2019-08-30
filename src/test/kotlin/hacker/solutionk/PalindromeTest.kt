@@ -11,6 +11,7 @@ class PalindromeTest {
         assertEquals("Yes",Palindrome.isPalindrome("albeisasiebla"))
         assertNotEquals("Yes",Palindrome.isPalindrome("able"))
         assertEquals("Yes",Palindrome.isPalindrome("dad"))
+        assertEquals("No",Palindrome.isPalindrome("mom"))
     }
 }
 

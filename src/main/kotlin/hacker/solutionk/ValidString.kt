@@ -18,9 +18,6 @@ import kotlin.jvm.internal.*
 import kotlin.ranges.*
 import kotlin.sequences.*
 import kotlin.text.*
-import sun.tools.jstat.Alignment.keySet
-
-
 
 // Complete the isValid function below.
 fun isValid(s: String): String {
